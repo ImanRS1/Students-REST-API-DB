@@ -6,5 +6,6 @@ const router = Router();
 router.get('/', controller.getStudents);
 router.post('/', controller.addStudent);
 router.get('/:id', controller.getStudentById);
+router.delete('/:id', controller.removeStudent);
 
 module.exports = router;
